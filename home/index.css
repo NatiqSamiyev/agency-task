@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+/* home-page */
+
+.container .home-page {
+  padding: 32px 80px;
+  border-bottom: 1px solid #dadada;
+}
+
+.container .home-page nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .home-page nav img {
+  width: 168px;
+  height: 41px;
+}
+
+.container .home-page nav ul {
+  display: inline-flex;
+  gap: 40px;
+}
+
+.container .home-page nav ul li {
+  list-style-type: none;
+}
+
+.container .home-page nav ul li a {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+.container .home-page nav button {
+  display: flex;
+  width: 200px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--secendery, #09f);
+  border: none;
+}
+
+.container .home-page nav button a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* main-container */
+
+.container .main-container {
+  padding: 49px 17px 120px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container .main-container .left-container {
+  width: 632px;
+}
+
+.container .main-container .left-container .agency {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.9px;
+}
+
+.container .main-container .left-container .under {
+  margin-top: 32px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.container .main-container .left-container div {
+  margin-top: 40px;
+  display: flex;
+}
+
+.container .main-container .left-container div button {
+  width: 200px;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.container .main-container .left-container .btn-1 {
+  border: 1px solid var(--Basic, #fff);
+  background: var(--secendery, #09f);
+  border: none;
+}
+
+.container .main-container .left-container .btn-2 {
+  margin-left: 16px;
+  border: 1px solid var(--secendery, #09f);
+  background: #fff;
+}
+
+.container .main-container .left-container div a {
+  color: var(--Basic, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+.container .main-container .left-container div .btn-2 a {
+  color: var(--secendery, #09f);
+}
+
+.container .main-container img {
+  width: 664.905px;
+  height: 735px;
+  margin-left: 4px;
+}
+
+/* services-container */
+
+.container .services-container {
+  padding: 120px 80px;
+  background: rgba(0, 153, 255, 0.04);
+}
+
+.container .services-container .text-container {
+  width: 612px;
+  text-align: center;
+  margin: auto;
+}
+
+.container .services-container .text-container h1 {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.container .services-container .text-container h2 {
+  margin-top: 20px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+}
+
+.container .services-container .text-container p {
+  margin-top: 32px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+}
+
+.container .services-container .cart-container {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.container .services-container .cart-container .cart {
+  padding: 12px 24px;
+  width: 308px;
+  height: 342px;
+  text-align: center;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .services-container .cart-container .cart img {
+  width: 100px;
+  height: 100px;
+}
+
+.container .services-container .cart-container .cart h3 {
+  margin-top: 16px;
+  color: var(--Primary-colors, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+
+.container .services-container .cart-container .cart p {
+  margin-top: 24px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+/* about-us */
+
+.container .about-us-container {
+  padding: 80px 80px 120px 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .about-us-container img {
+  height: 564px;
+  border: none;
+}
+
+.container .about-us-container .text-container {
+  margin-left: 29px;
+  width: 632px;
+}
+
+.container .about-us-container .text-container h1 {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.container .about-us-container .text-container h2 {
+  margin-top: 16px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+}
+
+.container .about-us-container .text-container p {
+  margin-top: 24px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+}
+
+.container .about-us-container .text-container button {
+  margin-top: 40px;
+  width: 200px;
+  height: 53px;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--secendery, #09f);
+  border: none;
+}
+
+.container .about-us-container .text-container button a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+}
